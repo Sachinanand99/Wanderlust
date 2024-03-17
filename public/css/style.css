@@ -117,10 +117,19 @@ body{
 }
 
 /* map */
-#map{
-    height: 30vh;
-    width: 25vh;
+
+#map {
+    width: 80vh;
+    height: 400px;
+  }
+
+@media screen and (max-width: 800px) {
+    #map{
+        height: 28vh;
+        width: 25vh;
+    }
 }
+
 
 /* filters in navbar */
 #filters{
