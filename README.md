@@ -10,7 +10,7 @@ Welcome to Wanderlust, a travel blog project where users can explore and share t
 - Bootstrap CSS 🎨: Front-end framework for designing responsive and mobile-first websites.
 
 ## Project Link
-[Wanderlust Project](https://wanderlust-juxc.onrender.com/)
+[Wanderlust Project](https://wanderlust-g4t3.onrender.com/)
 
 ## Getting Started
 1. Clone the repository.
