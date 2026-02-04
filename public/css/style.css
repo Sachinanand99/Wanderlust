@@ -136,6 +136,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    background-color: #fff !important;
   }
   .filter{
     text-align: center;

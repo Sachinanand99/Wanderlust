@@ -6,7 +6,7 @@ var client = new MapboxClient(
   "pk.eyJ1Ijoic2F2b3J5IiwiYSI6ImNsdHU2bDZnYTBzNzQya3BqMTM0MHlyMWsifQ.PUt2P41G6QXQruv75x31lA"
 );
 
-const MONGO_URL = "mongodb+srv://savory:EUVzfaMoFQPEG8sb@cluster0.dhkcphn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const MONGO_URL = "mongodb+srv://wanderlust:O4ukv7SXat4LZ6aw@cluster0.8fbwkq4.mongodb.net/wanderlust";
 
 main()
   .then(() => {

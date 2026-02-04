@@ -4,16 +4,17 @@
   },
   "name": "majorproject",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "An application for wanderers looking for hotels and for hotel owners to list hotels.",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev" : "nodemon app.js",
     "prod" : "node app.js",
+    "start": "node app.js",
     "dbinit" : "cd init && node index.js"
   },
   "keywords": [],
-  "author": "Sachin Anand",
+  "author": "Sachinanand99",
   "license": "ISC",
   "dependencies": {
     "@mapbox/mapbox-sdk": "^0.15.5",

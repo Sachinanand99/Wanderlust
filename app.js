@@ -49,7 +49,7 @@ const store = mongoStore.create({
   touchAfter: 24*60*60,
 });
 
-store.on("error", ()=>{
+store.on("error", (err)=>{
   console.log("ERROR IN MONGO SESSION STORE", err)
 });
 
@@ -93,7 +93,7 @@ app.use("/listings", listingRouter);
 app.use("/listings/:id/reviews", reviewRouter);
 app.use("/", userRouter);
 
-app.all("*", (req, res, next)=>{
+app.all("*", (req, res, next) => {
   next(new ExpressError(404, "Page not found"));
 });
 
