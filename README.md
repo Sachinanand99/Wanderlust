@@ -9,9 +9,6 @@ Welcome to Wanderlust, a travel blog project where users can explore and share t
 - MVC Framework 🛠️: Follows the Model-View-Controller architectural pattern for organizing code.
 - Bootstrap CSS 🎨: Front-end framework for designing responsive and mobile-first websites.
 
-## Project Link
-[Wanderlust Project](https://vercel.com/sachinanand99s-projects/club-forum-smvdu/)
-
 ## Getting Started
 1. Clone the repository.
 2. Install dependencies using `npm install`.
